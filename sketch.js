@@ -42,13 +42,13 @@ function setup() {
 	packageBody = Bodies.circle(width/2 , 200 , 5 , {isStatic:true});
 	World.add(world, packageBody);
 	
-	 part1 = Bodies.rectangle(width/2, 610, width, 10 , {isStatic:true} );
+	 part1 = Bodies.rectangle(width/2, height-50, 250, 20 , {isStatic:true} );
 	 World.add(world, part1);
 	 
-	 part2 = Bodies.rectangle(width/2, 610, 20, 100 , {isStatic:true} );
+	 part2 = Bodies.rectangle(280, 610, 20, 100 , {isStatic:true} );
 	 World.add(world, part2);
 	 
-	 part3 = Bodies.rectangle(width/2, 610, 20, 100 , {isStatic:true} );
+	 part3 = Bodies.rectangle(520, 610, 20, 100 , {isStatic:true} );
 	 World.add(world, part3);
 	 
 	//Create a Ground
